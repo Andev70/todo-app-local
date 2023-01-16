@@ -33,7 +33,7 @@
   display: flex;
   justify-content: centre;
   align-items: centre;
-
+  min-height: 3rem;
   max-height: max-content;
 }
 .container {
@@ -42,4 +42,28 @@
 }
 .todo-list {
   row-gap: 10px;
+}
+.add-icon {
+  pointer-events: none;
+}
+.btn-delete {
+  height: 1rem;
+  width: 1rem;
+}
+
+.todo {
+  height: 3rem;
+}
+.todo-name {
+  width: 80%;
+}
+
+.btn-del {
+  width: 10%;
+  background-color: #fb3d0f;
+}
+.update {
+  width: 10%;
+  border-right: 1px solid white;
+  background-color: #09c946;
 }
